@@ -9,29 +9,20 @@ Most recent revision:
   <head>
     <title>Jeff Padgett's Portfolio</title>
 
+    <link rel="stylesheet" href="styles/testStyles.css" type="text/css">
+
     <style>
-
-      body {
-        background-color: lightblue;
+      header {
+        background-color: darkgray;
       }
 
-      header, footer {
-        background-color: darkblue;
-        color: white;
-        border: blueviolet;
-        border-radius: 45px;
 
-      }
-
-      hr {
-        border: thin solid blueviolet;
-      }
     </style>
   </head>
 
   <body>
 
-    <header>
+    <header style="background-color: brown;">
       <h1>
       Portfolio for Jeff Padgett
       </h1>
@@ -40,7 +31,7 @@ Most recent revision:
     <hr style="border: thin solid blueviolet;"/>
     <!-- We need to add links to projects.html, contact.html,
     and testimonials.html -->
-      <nav>
+      <nav class="border">
         <p> This is where links to other pages will go. <p>
 
           <p><a href="projects.html">Projects</a></p>
@@ -54,7 +45,7 @@ Most recent revision:
 
     <section>
 
-      <article id="about_me">
+      <article id="about_me" class="border">
         <h2><em>About Me</em></h2>
 
         <img src="images/jeff_headshot.jpg" alt="Jeff Padgett with oboe" width="300"/>
@@ -143,7 +134,7 @@ Most recent revision:
 
     <p id="bottom"> this is the bottom of the page. <p>
 
-    <footer>
+    <footer style="background-color: fuchsia;">
       <hr />
       <p>&copy; 2018 Jeffrey S. Padgett.  All rights reserved. </p>
     </footer>

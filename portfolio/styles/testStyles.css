@@ -1,0 +1,25 @@
+body {
+  background-color: lightblue;
+}
+
+header, footer {
+  background-color: darkblue;
+  color: white;
+  border: blueviolet;
+  border-radius: 45px;
+
+}
+
+hr {
+  border: thin solid blueviolet;
+}
+
+.border {
+  border: thick solid blue;
+
+}
+
+#past_experience {
+
+  border: dashed orange;
+}
